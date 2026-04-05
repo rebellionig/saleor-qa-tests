@@ -23,7 +23,7 @@ def test_valid_login_returns_token():
         }
     """)
     result = client.execute(query)
-    assert result["tokenCreate"]["token"] == "this_will_fail"
+    assert result["tokenCreate"]["token"] is not None
     assert result["tokenCreate"]["errors"] == []
 
 

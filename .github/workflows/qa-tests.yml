@@ -65,7 +65,7 @@ jobs:
             --self-contained-html \
             -v \
             --ignore=tests/e2e \
-            || true
+            
 
       - name: Upload test report
         uses: actions/upload-artifact@v4

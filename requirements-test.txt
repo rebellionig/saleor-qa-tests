@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+pytest-html
+gql[requests]
+requests
+faker
+playwright
